@@ -1,0 +1,1 @@
+This project is created with react, node.js, express.js and mongodb - (MERN).
