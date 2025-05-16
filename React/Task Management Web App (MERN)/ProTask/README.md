@@ -1,7 +1,7 @@
 This project is created with react, node.js, express.js and mongodb - (MERN).
 
-![S](./screenshots/s.png)
-![S1](./screenshots/s1.png)
-![S2](./screenshots/s2.png)
-![S3](./screenshots/s3.png)
-![S4](./screenshots/s4.png)
+![S](./screenshots/home.png)
+![S1](./screenshots/create.png)
+![S2](./screenshots/read.png)
+![S3](./screenshots/update.png)
+![S4](./screenshots/delete.png)
