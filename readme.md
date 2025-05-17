@@ -10,7 +10,7 @@ ProTask includes:
 
 - A **web-based dashboard** using **React** and **Next.js**
 - A **mobile application** using **Flutter**
-- Integration with **MongoDB**, **Firebase**, and **Supabase** for data handling and authentication
+- Integration with **MongoDB** and **Supabase** for data handling and authentication
 
 The project focuses on production-level architecture, secure code practices, and clean state management.
 
@@ -18,25 +18,25 @@ The project focuses on production-level architecture, secure code practices, and
 
 ## 🎯 Primary Objectives
 
-- Develop scalable, secure, and maintainable code using modern software engineering principles.
-- Use **Redux** (React/Next.js) and **Provider/BLoC** (Flutter) for robust state management.
-- Set up a modular **Node.js** backend (for MongoDB) with secure REST APIs.
-- Experiment with **Firebase** and **Supabase** for real-time sync and BaaS learning.
-- Compare BaaS platforms based on real-world implementations.
+- Develop scalable, secure, and maintainable code using modern software engineering principles
+- Use **Redux** (React/Next.js) and **Provider/BLoC** (Flutter) for robust state management
+- Set up a modular **Node.js** backend (for MongoDB) with secure REST APIs
+- Implement **Supabase** for real-time synchronization and backend-as-a-service functionality
+- Evaluate BaaS approaches through practical implementation
 
 ---
 
 ## 🧰 Tech Stack Overview
 
-| Platform           | Stack                                                  |
-|--------------------|---------------------------------------------------------|
-| **Frontend (Web)** | React, Next.js, Redux, TailwindCSS                      |
-| **Frontend (Mobile)** | Flutter, Provider, BLoC                               |
-| **Backend**        | Node.js (with MongoDB), Firebase SDK, Supabase SDK     |
-| **Databases**      | MongoDB, Firebase Firestore, Supabase Postgres         |
-| **Authentication** | Firebase Auth, Supabase Auth                           |
-| **Storage**        | Firebase Storage, Supabase Buckets                     |
-| **Hosting**        | Vercel, Firebase Hosting, Render, Supabase Studio (optional)  |
+| Platform             | Stack                                       |
+|----------------------|---------------------------------------------|
+| **Frontend (Web)**   | React, Next.js, Redux, TailwindCSS          |
+| **Frontend (Mobile)**| Flutter, Provider, BLoC                     |
+| **Backend**          | Node.js (with MongoDB), Supabase SDK        |
+| **Databases**        | MongoDB, Supabase Postgres                  |
+| **Authentication**   | Custom JWT (Node.js), Supabase Auth         |
+| **Storage**          | Supabase Buckets                            |
+| **Hosting**          | Vercel, Render, Supabase Studio (optional)  |
 
 ---
 
@@ -45,7 +45,7 @@ The project focuses on production-level architecture, secure code practices, and
 ### 1. User Authentication
 - Email/Password registration & login
 - JWT token-based auth (Node.js + MongoDB)
-- OAuth support via Firebase and Supabase
+- OAuth support via Supabase
 
 ### 2. Task Management
 - Create, Read, Update, Delete (CRUD) operations
@@ -58,12 +58,52 @@ The project focuses on production-level architecture, secure code practices, and
 - Kanban-style task board (web)
 
 ### 4. Real-Time Updates
-- Firebase and Supabase listeners for live data sync
+- Supabase listeners for live data synchronization
 
 ### 5. Notification System
-- Push notifications (Flutter + FCM)
+- Push notifications for mobile (Flutter)
 - In-app alerts for due tasks or changes
 
 ### 6. Cross-platform UI
 - Responsive React/Next.js web dashboard
-- Flutter app for Android
+- Flutter app for Android and iOS
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v16+)
+- Flutter SDK
+- MongoDB (local or Atlas)
+- Supabase account
+
+### Setup Instructions
+1. Clone the repository
+2. Set up environment variables
+3. Install dependencies for both web and mobile
+4. Run development servers
+
+Detailed setup instructions are available in the project documentation.
+
+---
+
+## 📊 Architecture Overview
+
+ProTask implements a hybrid backend approach:
+- **Custom Node.js Backend**: For core data operations with MongoDB
+- **Supabase BaaS**: For real-time features, authentication, and storage
+
+This dual approach allows for learning and comparing different backend strategies within a single project.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
